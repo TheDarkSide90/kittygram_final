@@ -24,6 +24,7 @@ class Cat(models.Model):
     image = models.ImageField(
         upload_to='cats/images/',
         null=True,
+        blank=True,
         default=None
     )
 
